@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.youyou.taskdb.TaskListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.youyou.taskdb.TaskListActivity">
+
+    <TextView
+        android:id="@+id/textView_date_TaskListAcitivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_TaskListActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</com.example.youyou.taskdb.TaskListView>
